@@ -63,7 +63,6 @@ li {
     float: left;
 }
 li a {
-    display: block;
     text-align: center;
     padding: 14px 15px;
     text-decoration: none;
@@ -73,6 +72,9 @@ li a {
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+li a:hover {
+    background-color: #d8ffed;
+  }
 
 /* .home-hero */
 .home-hero {
@@ -106,5 +108,19 @@ li a {
 }
 .intro p {
     margin-top: 15px;
+}
+
+/* Footer */
+#footer {
+    width: 100%;
+    background-color: #2c3243;
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    height: 40px;
+    line-height: 40px;
+}
+#footer p {
+    margin-bottom: 0;
 }
 
