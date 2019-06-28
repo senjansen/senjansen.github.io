@@ -13,14 +13,30 @@ body {
     width: 800px;
     margin-right: auto;
     margin-left: auto;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.button {
+    background-color: #2c3243;
+    border: none;
+    color: white;
+    padding: 15px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 12px;
 }
 h1 {
     font-size: 54px;
     line-height: 60px;
     letter-spacing: 1px;
     margin-bottom: 1rem;
+}
+h2 {
+    font-size: 40px;
+    line-height: 55px;
 }
 p {
     margin-bottom: 1rem;
@@ -78,5 +94,17 @@ li a {
 }
 .text-wrapper {
     padding: 70px 15px;
+}
+
+/* Intro */
+.intro {  
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.intro img {
+    padding: 15px 0;
+}
+.intro p {
+    margin-top: 15px;
 }
 
